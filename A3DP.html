@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Catch the Monster </title>
+<link rel="stylesheet" type="text/css" href="Game.css">
+</head>
+<body>
+    <div class="container"> 
+        <h1> Catch the Cookie Monster </h1>
+    <p> Score: <span id="score">0</span></p>
+    <p> Hopping Interval: <span id="interval">1000 </span> ms</p> 
+        <button onclick="resetSpeed()"> Reset Speed  </button>
+        <button onclick="resetScore()">Reset Score </button>
+    </div>  
+    <div class="monster-container" onclick="monsterClick()">
+        <img src="M1.png" alt="monster">
+    </div>
+    <script type= "text/javascript" src="Game.js"></script>
+</body>
+</html>
