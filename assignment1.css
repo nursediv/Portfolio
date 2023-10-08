@@ -1,0 +1,9 @@
+/*CSS for Assignment 1 */
+.background{
+    display: flex;
+    align-items: center;
+    padding: 100px;
+    min-height: auto;
+    background-image: url(C:\Users\diivy\OneDrive\Desktop\Assignment1_FullStack\gradient.jpg);
+    background-size: cover;
+}
